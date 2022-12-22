@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background: #E5E5E5;
+}
+.container{
+    width: 375px;
+    background: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header{
+        
+        height: 66px;
+        border-radius: 12px;
+        background: #1B83E2;
+}
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 22px;
+
+}
+main {
+    padding: 24px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+select {
+    width: 100%;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+input {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 302px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    outline: none;
+    appearance: none;
+    font-size: 18px;
+    padding: 16px;
+}
+button{
+    width: 100%;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+    background: #1B83E2;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #f4f4f4;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border: none;
+
+}
+
+button:hover {
+    opacity: 0.9;
+
+}
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    width: 100%;
+    height: 299px;
+    left: 24px;
+    top: 458px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.currency-cont{
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+  }
+
+.currency-value{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+    padding-bottom: 13px;
+}
+
+.arrow-img{
+       margin: 15px auto;
+       display: block;
+}

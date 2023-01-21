@@ -7,11 +7,15 @@
 body {
     background-image: url(./img/Starry-Night-Forest-Nature-Gif-Epic.gif);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .container{
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 30px;
+    width: 280px;
+   
+   
 }
 
 header{
